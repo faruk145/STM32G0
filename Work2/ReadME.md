@@ -18,5 +18,3 @@ two modes (right shift and left shift). The button is used to change modes.
 ● There should be around 100 ms delay between transitions. (i.e. t3-t2 ~= 100 ms)
 
 ● First 12 patterns are given in Table 1 for one mode.
-
-![](LED_Pattern.jpg)
