@@ -10,7 +10,7 @@ Problem3:In this problem, you will implement a PWM signal and drive an LED at di
 
 -Your buttons should not bounce.
 
-Appendix A-Setting up USART and creating a print() function
+Appendix A-Setting up USART and creating a print() function:
 
 Pins PA2 and PA3 are connected to the ST/Link Debugge IC on the back which gets passed to the PC over USB as a
 Virtual COM port. This can be seen from the schematic of the board. First, we need to determine the USART modules
