@@ -19,4 +19,4 @@ two modes (right shift and left shift). The button is used to change modes.
 
 ● First 12 patterns are given in Table 1 for one mode.
 
-![](images/LED_Pattern.jpg)
+![](LED_Pattern.jpg)
