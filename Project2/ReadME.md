@@ -64,5 +64,14 @@ o Floating point numbers should be displayed with the appropriate dot. For examp
 -   • If directly a function is invoked, the current value should be used. For example, if the last answer is 4 and 
 -   
 -   - 4 is pressed, it should do 4 - 4 operation and display 0. If in the beginning, the number should be assumed 0. 
--   
+
+Quality requirements:
+
+• No bouncing on the buttons
+
+• No considerable delay with button presses 
+
+• No flickering on the displays 
+
+• Code should be properly commented with your name / school ID added in the beginning 
 
