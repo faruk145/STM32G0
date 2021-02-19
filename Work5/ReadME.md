@@ -32,3 +32,15 @@ some helpers for this purpose.
 loop and this should be displayed on your PC terminal
 7. implement a _print function that will call the printChar function for the given string in a for loop given as
 below. Now you can call _print(0, "Hello\n", 6); and it should be displayed on your PC terminal
+
+Appendix B- Setting up PWM
+
+1. First, we need to pick a pin which is capable of timer functionality. From the stm32g031k8 datasheet pinout,
+pick one that has a TIMx_CHy functionality listed and from Table 13/14 find the AF number. In this case x is
+the timer module that we will use and y is the channel that we will activate for PWM.
+2. Setup TIMx module like you would normally do, but choose PWM mode 1 from CCMR register for the relevant y
+channel. (CCMR1 has control over channels 1/2, and CCMR2 has control over channels 3/4)
+3. Enable the Capture/Compare output from relevant bit in CCER register.
+4. ARR register is the period for PWM and CCRy register is the duty cycyle for the PWM.
+5. Everytime full period happens, it should interrupt and you should decide on the next duty cycle to send.
+6. In the interrupt routine, make sure to clear the status register of the timer
