@@ -19,4 +19,4 @@ two modes (right shift and left shift). The button is used to change modes.
 
 ● First 12 patterns are given in Table 1 for one mode.
 
-![](LED_Pattern.jpg)
+![](STM32G0/images/LED_Pattern.jpg)
